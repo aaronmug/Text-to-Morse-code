@@ -28,7 +28,7 @@ is_converting = True
 # TODO 5 Enable the user to continue converting text
 while is_converting:
     # TODO 1 Request for user input
-    text_to_convert = input("Enter the text you would like to convert to Morse Code: ")
+    text_to_convert = input("Enter the text you would like to convert to Morse Code: ").upper()
     convert_text(text_to_convert)
     continue_converting = input("Convert more text(y/n): ").lower()
     if continue_converting == 'y':
