@@ -1,3 +1,4 @@
+# TODO 3 Create a dictionary with keys as text and values as the morse code
 letter_morse_codes = {
     'A': '.-', 'B': '-...', 'C': '-.-.', 'D': '-..', 'E': '.', 'F': '..-.', 'G': '--.', 'H': '....', 'I': '..',
     'J': '.---',
