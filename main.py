@@ -3,15 +3,18 @@ from codes import letter_morse_codes
 
 
 def text_to_code(text, codes):
+    # Create an empty string to store the Morse code representation
+    morse_code = []
+
     # Create a list of keys from the imported codes dictionary
     letters = [key for key in codes.keys()]
 
     # loop through each char in the input text and check if it's in the keys list
     for char in text:
         if char in letters:
-            text = text.replace(char, codes[char])
+            morse_code.append(codes[char])
 
-    return text
+    return " ".join(morse_code)
 
 
 def convert_text(string):
